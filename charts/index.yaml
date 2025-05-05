@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   eventos-backend:
   - apiVersion: v2
-    created: "2025-05-05T14:42:01.367718-06:00"
+    created: "2025-05-05T15:50:53.656465-06:00"
     description: Helm chart for Eventos Laravel backend
-    digest: ae52f12e4305698a9b90302494b8194ce980c282bd0ce6e02e3e45dad2a3b635
+    digest: 2c39e14c8631bdca7212a84677e9761bfe044d40f215982fe83b63aeeba93172
     name: eventos-backend
     type: application
     urls:
     - https://jcampos2907.github.io/charts/eventos-backend-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-05T14:42:01.366936-06:00"
+generated: "2025-05-05T15:50:53.655962-06:00"
