@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   eventos-backend:
   - apiVersion: v2
-    created: "2025-06-20T08:04:41.150608-06:00"
+    created: "2025-06-20T08:06:08.915126-06:00"
     description: Helm chart for Eventos Laravel backend
     digest: f56abf834a280a5f4942f5f0429129d828275c6d06722f18efbe192326a82d31
     name: eventos-backend
@@ -13,11 +13,11 @@ entries:
   medusa:
   - apiVersion: v2
     appVersion: 2.8.4
-    created: "2025-06-20T08:04:41.150976-06:00"
+    created: "2025-06-20T08:06:08.91542-06:00"
     description: Medusa server + Redis deployment
-    digest: c761a9d85a537a8971e0320d0d70a5e52c914cdaa9d9dc96bedeebb26ae565e5
+    digest: fddab6ed41737c28c610a149d14b04e07c9e4061bf15f5b05649220da3513c1c
     name: medusa
     urls:
     - https://jcampos2907.github.io/charts/medusa-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-20T08:04:41.150035-06:00"
+generated: "2025-06-20T08:06:08.91424-06:00"
