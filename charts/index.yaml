@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   eventos-backend:
   - apiVersion: v2
-    created: "2025-11-21T21:32:19.949659215Z"
+    created: "2025-11-21T21:35:01.754771803Z"
     description: Helm chart for Eventos Laravel backend
-    digest: 7e465d986384fed91c2627bbdd5bc5869cc3f381ac677033105565abaa28a1c2
+    digest: 1f49bc6b0c5dc1aa001ebe4a43d0bc656bdc66f6048fcb7ecc44471814d027a4
     name: eventos-backend
     type: application
     urls:
     - https://jcampos2907.github.io/charts/eventos-backend-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v2
-    created: "2025-11-21T21:32:19.954359544Z"
+    created: "2025-11-21T21:35:01.795467703Z"
     description: Helm chart for Eventos Laravel backend
     digest: f56abf834a280a5f4942f5f0429129d828275c6d06722f18efbe192326a82d31
     name: eventos-backend
@@ -21,9 +21,9 @@ entries:
     version: 0.1.0
   eventos-backend-nginx:
   - apiVersion: v2
-    created: "2025-11-21T21:32:19.950044691Z"
+    created: "2025-11-21T21:35:01.755156129Z"
     description: Helm chart for Eventos Laravel backend
-    digest: 8a6151c0fcfee98e6bfb3d2ae5ac06a3fded1779b8f582abd8b22175f3dddacb
+    digest: 5e05ee82de9526d8ac102090f9be6f743668a41d68237792e2e4a5d3e2400d1b
     name: eventos-backend-nginx
     type: application
     urls:
@@ -32,7 +32,7 @@ entries:
   medusa:
   - apiVersion: v2
     appVersion: 2.8.4
-    created: "2025-11-21T21:32:19.954961285Z"
+    created: "2025-11-21T21:35:01.795929813Z"
     description: Medusa server + Redis deployment
     digest: fddab6ed41737c28c610a149d14b04e07c9e4061bf15f5b05649220da3513c1c
     name: medusa
@@ -42,15 +42,15 @@ entries:
   pihole:
   - apiVersion: v1
     appVersion: 2025.08.0
-    created: "2025-11-21T21:32:19.953847888Z"
+    created: "2025-11-21T21:35:01.794999892Z"
     description: Highly-available Pi-hole with StatefulSet, Nebula Sync, and optional
       Unbound sidecar
-    digest: 49a3ea8524af98e2a315172ee5253327b6d9595e31e9c2b347c36df3745b99e5
+    digest: eb9ccecf685a5718969cf3f1e7e1050198df37a47d2c7ecf2711a1a68aff013d
     home: https://github.com/MoJo2600/pihole-kubernetes/tree/main/charts/pihole
     icon: https://wp-cdn.pi-hole.net/wp-content/uploads/2016/12/Vortex-R.png
     maintainers:
-    - email: christian.erhardt@mojo2k.de
-      name: MoJo2600
+    - email: nacho.campos29@gmail.com
+      name: jcampos2907
     name: pihole
     sources:
     - https://github.com/MoJo2600/pihole-kubernetes/tree/main/charts/pihole
@@ -60,4 +60,4 @@ entries:
     urls:
     - https://jcampos2907.github.io/charts/pihole-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-21T21:32:19.949048306Z"
+generated: "2025-11-21T21:35:01.754153055Z"
