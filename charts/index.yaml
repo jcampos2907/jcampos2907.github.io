@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   eventos-backend:
   - apiVersion: v2
-    created: "2025-11-21T19:53:37.546148095Z"
+    created: "2025-11-21T21:32:19.949659215Z"
     description: Helm chart for Eventos Laravel backend
-    digest: 15e7ec2bfb01beb579dff8b3429f215f08dfee7ec4f4f9edc1b2a774fb8a8beb
+    digest: 7e465d986384fed91c2627bbdd5bc5869cc3f381ac677033105565abaa28a1c2
     name: eventos-backend
     type: application
     urls:
     - https://jcampos2907.github.io/charts/eventos-backend-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v2
-    created: "2025-11-21T19:53:37.549310137Z"
+    created: "2025-11-21T21:32:19.954359544Z"
     description: Helm chart for Eventos Laravel backend
     digest: f56abf834a280a5f4942f5f0429129d828275c6d06722f18efbe192326a82d31
     name: eventos-backend
@@ -21,9 +21,9 @@ entries:
     version: 0.1.0
   eventos-backend-nginx:
   - apiVersion: v2
-    created: "2025-11-21T19:53:37.546521576Z"
+    created: "2025-11-21T21:32:19.950044691Z"
     description: Helm chart for Eventos Laravel backend
-    digest: 7bcf3d210516eaf50e35cf829ad324a89f5e9267271c652f921b2988809e1cfe
+    digest: 8a6151c0fcfee98e6bfb3d2ae5ac06a3fded1779b8f582abd8b22175f3dddacb
     name: eventos-backend-nginx
     type: application
     urls:
@@ -32,7 +32,7 @@ entries:
   medusa:
   - apiVersion: v2
     appVersion: 2.8.4
-    created: "2025-11-21T19:53:37.549777641Z"
+    created: "2025-11-21T21:32:19.954961285Z"
     description: Medusa server + Redis deployment
     digest: fddab6ed41737c28c610a149d14b04e07c9e4061bf15f5b05649220da3513c1c
     name: medusa
@@ -42,10 +42,10 @@ entries:
   pihole:
   - apiVersion: v1
     appVersion: 2025.08.0
-    created: "2025-11-21T19:53:37.548865283Z"
+    created: "2025-11-21T21:32:19.953847888Z"
     description: Highly-available Pi-hole with StatefulSet, Nebula Sync, and optional
       Unbound sidecar
-    digest: 1e92cf4affb59f8ce2479a99eff9b3798475d3ee6c02bc72eca8ff4f4b35ee19
+    digest: 49a3ea8524af98e2a315172ee5253327b6d9595e31e9c2b347c36df3745b99e5
     home: https://github.com/MoJo2600/pihole-kubernetes/tree/main/charts/pihole
     icon: https://wp-cdn.pi-hole.net/wp-content/uploads/2016/12/Vortex-R.png
     maintainers:
@@ -60,4 +60,4 @@ entries:
     urls:
     - https://jcampos2907.github.io/charts/pihole-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-21T19:53:37.545393216Z"
+generated: "2025-11-21T21:32:19.949048306Z"
