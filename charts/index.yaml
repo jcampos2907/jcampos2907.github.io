@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   eventos-backend:
   - apiVersion: v2
-    created: "2026-02-19T02:35:15.648522108Z"
+    created: "2026-02-19T02:50:10.566444456Z"
     description: Helm chart for Eventos Laravel backend
-    digest: b4103ef495fc3d0fa73e65f7d318483c5bc9f0306148ce616cdc89eb3147b394
+    digest: 8d2fc5c48bc36a34f59f669bca811530e39ad20158d2db176843f28cbf63c0cc
     name: eventos-backend
     type: application
     urls:
     - https://jcampos2907.github.io/charts/eventos-backend-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v2
-    created: "2026-02-19T02:35:15.655308906Z"
+    created: "2026-02-19T02:50:10.573927146Z"
     description: Helm chart for Eventos Laravel backend
     digest: f56abf834a280a5f4942f5f0429129d828275c6d06722f18efbe192326a82d31
     name: eventos-backend
@@ -21,9 +21,9 @@ entries:
     version: 0.1.0
   eventos-backend-nginx:
   - apiVersion: v2
-    created: "2026-02-19T02:35:15.648849113Z"
+    created: "2026-02-19T02:50:10.566793747Z"
     description: Helm chart for Eventos Laravel backend
-    digest: 901134bbff66654cf63e84179055a78571b14719c7d4a96439bb270b5965e557
+    digest: debe6811c85dccf4f0cedbb169062fc261d35e8cd49021b898966ce0a890034f
     name: eventos-backend-nginx
     type: application
     urls:
@@ -32,7 +32,7 @@ entries:
   medusa:
   - apiVersion: v2
     appVersion: 2.8.4
-    created: "2026-02-19T02:35:15.655665746Z"
+    created: "2026-02-19T02:50:10.574329383Z"
     description: Medusa server + Redis deployment
     digest: fddab6ed41737c28c610a149d14b04e07c9e4061bf15f5b05649220da3513c1c
     name: medusa
@@ -42,10 +42,10 @@ entries:
   pihole:
   - apiVersion: v1
     appVersion: 2025.08.0
-    created: "2026-02-19T02:35:15.654202258Z"
+    created: "2026-02-19T02:50:10.572008566Z"
     description: Highly-available Pi-hole with StatefulSet, Nebula Sync, and optional
       Unbound sidecar
-    digest: 14e1dff406a7322d4823bca6e74a93d9dac9768e92f7f78648ee6b77655c46af
+    digest: 02816045872bbfd9e66ef584e06f7877a5ec1905e827d535b586cb3cf3071269
     home: https://github.com/MoJo2600/pihole-kubernetes/tree/main/charts/pihole
     icon: https://wp-cdn.pi-hole.net/wp-content/uploads/2016/12/Vortex-R.png
     maintainers:
@@ -62,7 +62,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2025.08.0
-    created: "2026-02-19T02:35:15.652266327Z"
+    created: "2026-02-19T02:50:10.570113955Z"
     description: Highly-available Pi-hole with StatefulSet, Nebula Sync, and optional
       Unbound sidecar
     digest: 12795be3fa3d349dff83723482fc056f6ce1bf42ed9b46c8ba0e960874ff2347
@@ -83,7 +83,25 @@ entries:
   technitium-dns:
   - apiVersion: v2
     appVersion: 14.3.0
-    created: "2026-02-19T02:35:15.654945497Z"
+    created: "2026-02-19T02:50:10.573580193Z"
+    description: A Helm chart for deploying Technitium DNS Server - an open source
+      authoritative and recursive DNS server
+    digest: b5b38544f17a7383cc117782adf521c833075d98b3001949bbb8aa039c9fd392
+    home: https://technitium.com/dns/
+    icon: https://technitium.com/favicon.ico
+    maintainers:
+    - name: Juan Campos
+    name: technitium-dns
+    sources:
+    - https://github.com/TechnitiumSoftware/DnsServer
+    - https://hub.docker.com/r/technitium/dns-server
+    type: application
+    urls:
+    - https://jcampos2907.github.io/charts/technitium-dns-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 14.3.0
+    created: "2026-02-19T02:50:10.572767727Z"
     description: A Helm chart for deploying Technitium DNS Server - an open source
       authoritative and recursive DNS server
     digest: b3c9d3bcf551cdc06f8d4a77f4df86ea939e5cd5c16190c1b8b9994e1e0ad9f0
@@ -99,4 +117,4 @@ entries:
     urls:
     - https://jcampos2907.github.io/charts/technitium-dns-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-19T02:35:15.647881881Z"
+generated: "2026-02-19T02:50:10.565845987Z"
