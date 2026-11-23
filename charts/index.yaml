@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   eventos-backend:
   - apiVersion: v2
-    created: "2026-11-23T22:49:39.421513092Z"
+    created: "2026-11-23T23:16:25.442031076Z"
     description: Helm chart for Eventos Laravel backend
-    digest: cd77b02068e27670f2d922fc67cce6ee3923ea119dd907f0da52cef95669caf7
+    digest: 6f9145a2463441b27b7b98d9d51d0ded65d0c0d6994a61a722e0c3e77f002e11
     name: eventos-backend
     type: application
     urls:
     - https://jcampos2907.github.io/charts/eventos-backend-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v2
-    created: "2026-11-23T22:49:39.43392407Z"
+    created: "2026-11-23T23:16:25.463785728Z"
     description: Helm chart for Eventos Laravel backend
     digest: f56abf834a280a5f4942f5f0429129d828275c6d06722f18efbe192326a82d31
     name: eventos-backend
@@ -21,9 +21,9 @@ entries:
     version: 0.1.0
   eventos-backend-nginx:
   - apiVersion: v2
-    created: "2026-11-23T22:49:39.421816143Z"
+    created: "2026-11-23T23:16:25.442543941Z"
     description: Helm chart for Eventos Laravel backend
-    digest: 94d48b800bb5810ec097f429ad3e281c5c1e7923cbb89a14e806fbdbfc660318
+    digest: 802e7672f63211b583f95375cbd60352a4f9f87a7317b1fef311ac601050ed91
     name: eventos-backend-nginx
     type: application
     urls:
@@ -32,7 +32,7 @@ entries:
   medusa:
   - apiVersion: v2
     appVersion: 2.8.4
-    created: "2026-11-23T22:49:39.434342488Z"
+    created: "2026-11-23T23:16:25.464584211Z"
     description: Medusa server + Redis deployment
     digest: fddab6ed41737c28c610a149d14b04e07c9e4061bf15f5b05649220da3513c1c
     name: medusa
@@ -42,10 +42,10 @@ entries:
   pihole:
   - apiVersion: v1
     appVersion: 2025.08.0
-    created: "2026-11-23T22:49:39.425773014Z"
+    created: "2026-11-23T23:16:25.448981173Z"
     description: Highly-available Pi-hole with StatefulSet, Nebula Sync, and optional
       Unbound sidecar
-    digest: a581850028e7ee4ba8dc52ea74b76dc3871871b3cae24843cdad9c31d2bbce98
+    digest: fcbb430540401cbc459a5a393d565d1f669c2ffb5e25cd15b1a7caaf7380df38
     home: https://github.com/MoJo2600/pihole-kubernetes/tree/main/charts/pihole
     icon: https://wp-cdn.pi-hole.net/wp-content/uploads/2016/12/Vortex-R.png
     maintainers:
@@ -62,7 +62,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2025.08.0
-    created: "2026-11-23T22:49:39.423875561Z"
+    created: "2026-11-23T23:16:25.445833611Z"
     description: Highly-available Pi-hole with StatefulSet, Nebula Sync, and optional
       Unbound sidecar
     digest: 12795be3fa3d349dff83723482fc056f6ce1bf42ed9b46c8ba0e960874ff2347
@@ -82,8 +82,22 @@ entries:
     version: 0.1.0
   ravenhold:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2026-11-23T23:16:25.453491509Z"
+    description: A Helm chart for deploying Ravenhold - the market tracker and research
+      app (API, frontend, docs, analytics scheduler, RSSHub and optional IB Gateways).
+      Bring your own PostgreSQL (pgvector) and Secrets.
+    digest: fecc05aafb2e452ba1b4f93ebd17910a0fcd69d0316d4756da8e5bed06973504
+    maintainers:
+    - name: Juan Campos
+    name: ravenhold
+    type: application
+    urls:
+    - https://jcampos2907.github.io/charts/ravenhold-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-11-23T22:49:39.426368976Z"
+    created: "2026-11-23T23:16:25.450872643Z"
     description: A Helm chart for deploying Ravenhold - the market tracker and research
       app (API, frontend, docs, analytics scheduler, RSSHub and optional IB Gateways).
       Bring your own PostgreSQL (pgvector) and Secrets.
@@ -100,10 +114,10 @@ entries:
   technitium-dns:
   - apiVersion: v2
     appVersion: 14.3.0
-    created: "2026-11-23T22:49:39.433578881Z"
+    created: "2026-11-23T23:16:25.463276461Z"
     description: A Helm chart for deploying Technitium DNS Server - an open source
       authoritative and recursive DNS server
-    digest: 50715cbfb10182b471c7e6d999c884077030fd8b273424bc782d445b105973a5
+    digest: bed80c52a675495020384e27b232e864c7b1e8faec57c453b65342d9a9efb31a
     home: https://technitium.com/dns/
     icon: https://technitium.com/favicon.ico
     maintainers:
@@ -118,7 +132,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 14.3.0
-    created: "2026-11-23T22:49:39.432668175Z"
+    created: "2026-11-23T23:16:25.46201712Z"
     description: A Helm chart for deploying Technitium DNS Server - an open source
       authoritative and recursive DNS server
     digest: 97ef14298171047d8574fe91a3dce2b361dc5eaede54668003b2bd23d210c6ff
@@ -136,7 +150,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 14.3.0
-    created: "2026-11-23T22:49:39.431672361Z"
+    created: "2026-11-23T23:16:25.460502842Z"
     description: A Helm chart for deploying Technitium DNS Server - an open source
       authoritative and recursive DNS server
     digest: fd702868484fb2cae7688a2c8334f312d896c600d546c0cda5a42febe5688628
@@ -154,7 +168,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 14.3.0
-    created: "2026-11-23T22:49:39.430829554Z"
+    created: "2026-11-23T23:16:25.459340856Z"
     description: A Helm chart for deploying Technitium DNS Server - an open source
       authoritative and recursive DNS server
     digest: 9c7f5e8c866762e3feb1455b7bbfab5be74b0a1f04028ffb5c5eb034dd1140ac
@@ -172,7 +186,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 14.3.0
-    created: "2026-11-23T22:49:39.429920352Z"
+    created: "2026-11-23T23:16:25.457811448Z"
     description: A Helm chart for deploying Technitium DNS Server - an open source
       authoritative and recursive DNS server
     digest: 16a4636fa484ee77a2fb4a67a1ae136c9e638901e87e4cdce1182c27871de686
@@ -190,7 +204,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 14.3.0
-    created: "2026-11-23T22:49:39.428796406Z"
+    created: "2026-11-23T23:16:25.456472668Z"
     description: A Helm chart for deploying Technitium DNS Server - an open source
       authoritative and recursive DNS server
     digest: b5b38544f17a7383cc117782adf521c833075d98b3001949bbb8aa039c9fd392
@@ -208,7 +222,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 14.3.0
-    created: "2026-11-23T22:49:39.428001429Z"
+    created: "2026-11-23T23:16:25.455007302Z"
     description: A Helm chart for deploying Technitium DNS Server - an open source
       authoritative and recursive DNS server
     digest: b3c9d3bcf551cdc06f8d4a77f4df86ea939e5cd5c16190c1b8b9994e1e0ad9f0
@@ -224,4 +238,4 @@ entries:
     urls:
     - https://jcampos2907.github.io/charts/technitium-dns-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-23T22:49:39.420798407Z"
+generated: "2026-11-23T23:16:25.441159577Z"
